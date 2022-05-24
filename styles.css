@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "HighspeedRegular";
+    src: url(fonts/HighspeedRegular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth; /*scroll suave*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-family: roboto;
+    max-width: 100vw;
+}
+h1{ 
+    font-family: "HighspeedRegular";
+    color: azure;
+    font-size: calc(1.5vw + 2.5vh);
+}
+#ptitle{
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    color: azure;
+    font-size: 1.8vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 4vw;
+    text-shadow: 1px 1px 5px #1d2123;
+}
+svg{
+    opacity: 0.7;
+    position: absolute;
+    color: azure;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation: image 0.7s alternate infinite;
+}
+
+@keyframes image {
+    from {
+        top: 95%;
+      }
+}
+.container{
+    width: 100%;
+    margin: auto
+}
+header{
+    max-height: 2vh;
+    background-color: #0f1314;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+
+}
+.title{
+    font-size: calc(0.3vw + 1.3vh);
+}
+#con{
+    color: white;
+
+}
+#myVideo {
+    position: absolute;
+    opacity: 0.4;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #myVideo2 {
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+main{
+    min-height: 100vh;
+
+    overflow: hidden;
+}
+.formPai{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4%;
+    display: flex;
+}
+.formContainer{
+    max-width: 350px;
+    border-left: 1px solid azure;
+    background-color: #0f1314;
+    padding: 30px;
+}
+h2{
+    font-size: calc(1.5vw + 2.5vh);
+    margin-bottom: 15px;
+    font-family: "Space Grotesk";
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 1.8vh;
+    font-family: "roboto";
+    font-weight: 300;
+    width: 30vw;
+    margin-top: 0;
+}
+.mb{
+    font-size: calc(0.3vw + 1.3vh);
+    color: azure;
+    margin-bottom: 15px;
+}
+input:not(.submit), select{
+    background-color: #0f1314;
+    border: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+}
+.submit{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: azure;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'roboto', sans-serif;
+}
+.submit:hover{
+    background-color: #171d1f;
+    color: azure;
+
+}
+select{
+    color: gray;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background-color: rgb(238, 239, 242);
+    text-align: center;
+}
+
+.picture{
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.contDescription{
+    background-color: rgb(238, 239, 242);
+    color: black;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.description{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description2{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+.sec3{
+    background-color: black;
+    position: relative;
+}
+h3{
+    font-size: calc(2vh + 2vw);
+}
+.description p, .description h3, .description2 p, .description2 h3{
+    margin-bottom: 20px;
+}
+#aspas{
+    height: 70px;
+    font-family: 'HighspeedRegular'; 
+    color: azure; 
+    font-size: 80px; 
+    margin: 0;
+    padding: 0;
+    
+}
+#submit2{
+    background-color: #171d1f;
+    color: azure;
+    max-width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+#submit2:hover{
+    background-color: azure;
+    color: #171d1f;
+}
+#submit3{
+    max-width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+.sec3{
+    color: white;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contAcordeao{
+    position: static;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#duvidasFreq{
+    text-align: center;
+    color: black;
+    max-height: 100px;
+    position: static;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+#pDuvidas{
+    font-size: calc(0.3vw + 1.3vh);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+h4{
+    text-align: center;
+}
+
+.accordion {
+    width: 90%;
+    margin: 35px auto;
+    color: black;
+    background-color: rgb(238, 239, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.accordion .box {
+    position: relative;
+    margin: 10px 15px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: calc(1.2vh + 0.3vw);
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 18px;
+    transform: translateY(-50%);
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .in {
+    position: relative;
+    background: rgb(238, 239, 242);
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    height: 0;
+    font-size: calc(0.4vw + 1.1vh);
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.acordeao{
+    position: relative;
+    min-height: auto;
+}
+#idhr{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    height: 150px;
+}
+
+/* Adds a horizontal line between the contents */
+
+.accordion .classhr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+}
+.accordion .box.active .in {
+    height: 50px;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .box.active .label::before {
+    content: '-';
+    font-size: 24px;
+}
+ul{
+    opacity: 0.8;
+    font-size: calc(0.8vh + 0.3vw);
+    padding: 4vh 4vw 4vh 4vw;
+}
+a:hover{
+    opacity: 1;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.containerFooter{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright{
+    position: relative;
+    height: 100px;
+    font-size: 1.5vh;
+}
+#txtCopy{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(0.2vw + 1.2vh);
+    min-width: 50%;
+    max-width: 60%;
+    text-align: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+@media(max-width: 1024px){
+
+    section{
+        flex-direction: column;
+    }
+    .picture{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        width: 80vw;
+    }
+    .formPai{
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 250px;
+        width: 100%;
+    }
+    .formContainer{
+        min-width: 50%;
+    }
+    #ptitle{
+        font-size: calc(0.5vw + 1.5vh);
+        width: 100%;
+    }
+    .content{
+        margin-left: 0vw;
+        text-align: center;
+        top: calc(12vh + 4vw);
+        right: 15px;
+        left: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        min-width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .containerFooter{
+        min-width: 100%;
+    }
+    #idhr{
+        height: 100px;
+    }
+    .contAcordeao{
+        margin-top: 50px;
+        margin-bottom: 65px;
+    }
+    .accordion{
+        width: 60%;
+    }#txtCopy{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 10%;
+    }
+}
