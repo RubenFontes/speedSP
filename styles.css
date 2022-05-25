@@ -16,20 +16,19 @@ html{
     scroll-behavior: smooth; /*scroll suave*/
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     font-family: 'roboto', sans-serif;
     max-width: 100vw;
 }
 h1{ 
     font-family: "HighspeedRegular";
-    color: azure;
+    color: white;
     font-size: calc(1.5vw + 2.5vh);
 }
 #ptitle{
     font-family: 'roboto', sans-serif;
     font-weight: 300;
-    color: azure;
+    color: white;
     font-size: calc(0.2vw + 1.4vh);
 }
 .content{
@@ -42,7 +41,7 @@ h1{
 svg{
     opacity: 0.7;
     position: absolute;
-    color: azure;
+    color: white;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,12 +60,15 @@ svg{
 }
 header{
     max-height: 2vh;
-    background-color: #D4E7E4;
+    background-color: lightsteelblue;
+    color: #0f1314;
     text-align: center;
-    color: #1d2123;
     padding: 6px;
 }
-
+.title{
+    font-family: "roboto";
+    font-weight: 500;
+}
 #con{
     color: white;
 
@@ -100,7 +102,7 @@ main{
     max-width: 350px;
     max-height: 300px;
     min-width: 50%;
-    border-left: 1px solid #D4E7E4;
+    border-left: 1px solid lightsteelblue;
     background-color: #0f1314;
     padding: 30px;
 }
@@ -118,11 +120,12 @@ p{
     margin-top: 0;
 }
 .mb{
-    color: #D4E7E4;
+    color: white;
     margin-bottom: 15px;
 }
 input:not(.submit), select{
     background-color: #0f1314;
+    color: white;
     border: 1px solid gray;
     width: 100%;
     box-sizing: border-box;
@@ -137,8 +140,8 @@ input:not(.submit), select{
     box-sizing: border-box;
     padding: 10px;
     margin-bottom: 10px;
-    color: black;
-    background-color: #D4E7E4;
+    color: #0f1314;
+    background-color:lightsteelblue;
     font-weight: bold;
     cursor: pointer;
     font-family: 'roboto', sans-serif;
@@ -165,12 +168,6 @@ section{
 .picture{
     width: auto;
     height: 100vh;
-    position: relative;
-}
-.palestrante{
-    background-color: rgb(238, 239, 242);
-    color: black;
-    min-height: 100vh;
     position: relative;
 }
 .contDescription{
@@ -211,7 +208,7 @@ h3{
 #aspas{
     height: 70px;
     font-family: 'HighspeedRegular'; 
-    color: #D4E7E4; 
+    color: lightsteelblue; 
     font-size: 80px; 
     margin: 0;
     padding: 0;
@@ -219,7 +216,8 @@ h3{
 }
 #submit2{
     background-color: #171d1f;
-    color: azure;
+    border-bottom: 2px solid lightsteelblue;
+    color: white;
     max-width: 150px;
     height: 50px;
     padding: 10px;
@@ -357,6 +355,7 @@ footer{
     justify-content: center;
 }
 .containerFooter{
+    border-top: 10px solid lightsteelblue;
     background-color: black;
     justify-content: center;
     display: flex;
