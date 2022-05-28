@@ -29,7 +29,7 @@ body{
     margin: auto
 }
 main{
-    min-height: 100vh;
+    min-height: 98vh;
     overflow: hidden;
 }
 header{
@@ -124,16 +124,7 @@ input:not(.submit), select{
 }
 .submit:hover{
     transform: scale(1.1);
-}
-#button{
-    background-color: #171d1f;
-    border-bottom: 3px solid lightsteelblue;
-    color: white;
-    max-width: 150px;
-    max-height: 60px;
-    padding: 10px;
-    margin-bottom: 0px;
-    font-size: calc(0.8vh + 0.1vw);
+    box-shadow: 1px 1px 10px silver;
 }
 select{
     color: gray;
@@ -154,15 +145,15 @@ svg{
     opacity: 0.7;
     position: absolute;
     color: white;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    animation: image 0.7s alternate infinite;
+    animation: image 0.5s alternate infinite;
 }
 @keyframes image {
     from {
-        top: 95%;
+        top: 94%;
       }
 }
 #videoSobre{
@@ -188,6 +179,16 @@ svg{
 }
 .description p, .description h3, .description2 p, .description2 h3{
     margin-bottom: 20px;
+}
+#button{
+    background-color: #171d1f;
+    border-bottom: 3px solid lightsteelblue;
+    color: white;
+    max-width: 150px;
+    max-height: 65px;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: calc(0.8vh + 0.1vw);
 }
 #videoQuote {
     opacity: 0.4;
@@ -247,7 +248,7 @@ h2:not(#aspas){
 #duvidasFreq{
     text-align: center;
     color: black;
-    max-height: 100px;
+    max-height: calc(2vh + 2vw);
     position: static;
     margin-top: 150px;
     margin-bottom: 5px;
@@ -344,14 +345,13 @@ a:hover{
     color: black;
 }
 footer{
-    background-color: black;
     color: white;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
-.containerFooter{
+.ulFooter{
     border-top: 5px solid lightsteelblue;
-    background-color: black;
     justify-content: center;
     display: flex;
     flex-direction: row;
